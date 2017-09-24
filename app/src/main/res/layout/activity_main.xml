@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseBg">
+
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_width"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/base_top_margin"
+        android:src="@drawable/ru_img"/>
+
+    <EditText
+        android:id="@+id/textView"
+        style="@style/base_text"
+        android:layout_below="@+id/bg_image"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/login_text"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/base_text"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:hint="@string/password_name"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:text="Забыли?"
+        android:textColor="@color/blueTextColor"
+        android:textSize="@dimen/base_text_size" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/base_text"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:background="@color/darkBlue"
+        android:text="войти"
+        android:textColor="@color/baseWhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:text="Информация об организации"
+        android:textSize="@dimen/base_text_size" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_expand_more_black_24dp" />
+
+</RelativeLayout>

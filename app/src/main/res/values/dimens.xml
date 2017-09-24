@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_width">180dp</dimen>
+    <dimen name="govo">20dp</dimen>
+    <dimen name="base_top_margin">20dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_width">240dp</dimen>
+    <dimen name="button_width">45dp</dimen>
+    <dimen name="base_text_size">18sp</dimen>
+    <dimen name="icon_width">44dp</dimen>
+</resources>
